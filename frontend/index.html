@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Logistics Management Dashboard</h1>
+    </header>
+
+    <main>
+        <section id="order-status">
+            <h2>Order Tracking</h2>
+            <input type="text" id="order-id" placeholder="Enter Order ID">
+            <button onclick="simulateOrderStatus()">Track Order</button>
+            <div id="order-details"></div>
+        </section>
+
+        <section id="map">
+            <h2>Simulated Cargo Location</h2>
+            <div id="map-container">
+                <p>Current Location: <span id="location">Loading...</span></p>
+            </div>
+        </section>
+
+        <section id="analytics">
+            <h2>Analytics and Reports</h2>
+            <div id="analytics-charts">
+                <p>Orders Delivered on Time: 95%</p>
+                <p>Average Delivery Time: 3 days</p>
+                <p>CO2 Emissions Saved: 12%</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 Logistics Management. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

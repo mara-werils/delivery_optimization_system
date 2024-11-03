@@ -1,0 +1,16 @@
+[
+    {
+        "customer_id": "123",
+        "details": {
+            "product": "Aviation Part",
+            "quantity": 10
+        }
+    },
+    {
+        "customer_id": "456",
+        "details": {
+            "product": "Aircraft Engine",
+            "quantity": 2
+        }
+    }
+]

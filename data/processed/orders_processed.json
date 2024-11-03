@@ -1,0 +1,22 @@
+[
+    {
+        "order_id": "e3f8d6d9-abc2-4c28-914d-5b7c9e2e8923",
+        "customer_id": "123",
+        "details": {
+            "product": "Aviation Part",
+            "quantity": 10
+        },
+        "status": "In Transit",
+        "route": "Route A"
+    },
+    {
+        "order_id": "b4f2a7b9-df01-4d18-b52e-6b7b4e2e8321",
+        "customer_id": "456",
+        "details": {
+            "product": "Aircraft Engine",
+            "quantity": 2
+        },
+        "status": "Dispatched",
+        "route": "Route B"
+    }
+]
